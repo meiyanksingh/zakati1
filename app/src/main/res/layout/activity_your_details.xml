@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+>
+    <include layout="@layout/tool_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_details"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/margin_very_large">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/birthday"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp16" />
+
+                <EditText
+                    android:id="@+id/dd"
+                    style="@style/EditTextStyle.white_border"
+                    android:textSize="@dimen/dp15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="DD"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:maxLines="1" />
+
+                <EditText
+                    android:id="@+id/mm"
+                    style="@style/EditTextStyle.white_border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_small"
+                    android:hint="MM"
+                    android:textSize="@dimen/dp15"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:maxLines="1"
+                    android:layout_marginLeft="@dimen/margin_small" />
+
+                <EditText
+                    android:id="@+id/yy"
+                    style="@style/EditTextStyle.white_border"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_small"
+                    android:hint="YYYY"
+                    android:inputType="number"
+                    android:textSize="@dimen/dp15"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    android:layout_marginLeft="@dimen/margin_small" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xxlarge"
+                android:text="@string/city"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etCity"
+                style="@style/EditTextStyle_bottom_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:hint="@string/city"
+                android:textColorHint="@android:color/transparent"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp15"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xxlarge"
+                android:text="@string/country"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etCountry"
+                style="@style/EditTextStyle_bottom_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:hint="@string/country"
+                android:textColorHint="@android:color/transparent"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xxlarge"
+                android:text="@string/telephone"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etPhone"
+                style="@style/EditTextStyle_bottom_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/telephone"
+                android:textColorHint="@android:color/transparent"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp15" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xxlarge"
+                android:alpha="0.6"
+                android:text="@string/telephone_text"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normalx" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xxlarge"
+                android:gravity="end">
+
+                <include layout="@layout/white_fab" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

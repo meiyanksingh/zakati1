@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0640BD</color>
+    <color name="colorPrimaryDark">#022E82</color>
+    <color name="colorAccent">#0072F3</color>
+
+    <color name="blue">#0640BD</color>
+    
+    <color name="purple">#303F9F</color>
+
+    <color name="rec_btn_color">#00358E</color>
+    <color name="hint">#97A4C6</color>
+    <color name="light_blue">#0072F3</color>
+
+    <color name="white">#fff</color>
+    <color name="off_white">#F1F0F0</color>
+    <color name="black">#000</color>
+
+    <color name="grey">#A7A7A7</color>
+    <color name="dark_grey">#7D7D7D</color>
+    <color name="green">#4DC6BC</color>
+    <color name="activated_green">#4BD865</color>
+    <color name="black_transparent_thirty_percent">#B3000000</color>
+    <color name="status_bar_color_transparent">#84ea7b8f</color>
+
+    <color name="sample">#f00</color>
+
+</resources>

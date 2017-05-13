@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context="zakati.app.com.zakati.activities.NameActivity">
+
+    <include layout="@layout/trans_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tell_us_about_yourself"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xlargex" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <zakati.app.com.zakati.views.FlowLayout
+                    android:id="@+id/causes_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+<!--                    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button1"
+                        android:background="@drawable/selector_flow_item_bg"
+                        android:padding="@dimen/margin_small"
+                        android:text="some text"
+                        android:textColor="@drawable/selector_flow_item_text" />
+
+                    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button2"
+                        android:background="@drawable/selector_flow_item_bg"
+                        android:padding="@dimen/margin_small"
+                        android:text="some text"
+                        android:textColor="@drawable/selector_flow_item_text" />-->
+
+                </zakati.app.com.zakati.views.FlowLayout>
+
+            </FrameLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end">
+
+            <include layout="@layout/white_fab" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_create_post"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        tools:context="zakati.app.com.zakati.activities.CreatePost">
+
+        <EditText
+            android:id="@+id/post"
+            style="@style/EditTextStyle.white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/post_name"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/description"
+            style="@style/EditTextStyle.white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:hint="@string/description"
+            android:maxLines="3"
+            android:minLines="3" />
+
+        <include layout="@layout/divider_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/upload_picture_optional" />
+
+            <Button
+                android:id="@+id/choose_file"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/choose_file" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall">
+
+            <FrameLayout
+                android:id="@+id/image_1_frame"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:layout_weight="1">
+
+                <zakati.app.com.zakati.views.SquareImageView
+                    android:id="@+id/image_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/delete_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_margin="@dimen/margin_micro"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/image_2_frame"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/delete_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_margin="@dimen/margin_micro"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+                <zakati.app.com.zakati.views.SquareImageView
+                    android:id="@+id/image_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/image_3_frame"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:layout_weight="1">
+
+                <zakati.app.com.zakati.views.SquareImageView
+                    android:id="@+id/image_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/delete_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_margin="@dimen/margin_micro"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall">
+
+            <FrameLayout
+                android:id="@+id/image_4_frame"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:layout_weight="1">
+
+                <zakati.app.com.zakati.views.SquareImageView
+                    android:id="@+id/image_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/delete_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_margin="@dimen/margin_micro"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/image_5_frame"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/delete_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_margin="@dimen/margin_micro"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+                <zakati.app.com.zakati.views.SquareImageView
+                    android:id="@+id/image_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/image_6_frame"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:layout_weight="1">
+
+                <zakati.app.com.zakati.views.SquareImageView
+                    android:id="@+id/image_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/delete_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_margin="@dimen/margin_micro"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xlarge"
+            android:background="@color/white"
+            android:padding="@dimen/margin_xsmall">
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/causes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.AppCompatSpinner>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/post_bt"
+            style="@style/ButtonStyle.Rounded_blue"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_height="wrap_content"
+            android:text="@string/post" />
+
+    </LinearLayout>
+</ScrollView>

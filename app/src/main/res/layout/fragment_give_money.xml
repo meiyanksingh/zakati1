@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        tools:context="zakati.app.com.zakati.activities.GiveMoneyActivity">
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/EditTextStyle.white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/amount"
+            style="@style/EditTextStyle.white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:hint="@string/amount"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/reason"
+            style="@style/EditTextStyle.white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:gravity="start"
+            android:hint="@string/reason"
+            android:maxLines="3"
+            android:minLines="3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cause"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <RadioButton
+                    android:id="@+id/cause_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_mini"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/organisation"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <RadioButton
+                    android:id="@+id/organization_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_xsmall"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/anonymous"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <CheckBox
+                    android:id="@+id/anonymous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/recurring_donation"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <CheckBox
+                    android:id="@+id/recurring_donation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Recurring Time"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <EditText
+                    android:id="@+id/recurring_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="MM/YY"
+                    android:textSize="@dimen/text_size_normal" />
+            </LinearLayout>
+
+            <Button
+                style="@style/ButtonStyle.Rounded_blue"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/give"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_large"
+                android:layout_marginTop="@dimen/margin_xlargex"
+                android:text="@string/give" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

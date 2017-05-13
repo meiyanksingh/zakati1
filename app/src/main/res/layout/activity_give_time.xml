@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rsb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_give_time"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/how_long"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/_1_10_hrs" />
+
+        </LinearLayout>
+
+        <zakati.app.com.zakati.views.rangeSeekbar.RangeSeekBar
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            rsb:absoluteMaxValue="@integer/max_time"
+            rsb:absoluteMinValue="@integer/min_time"
+            rsb:activateOnDefaultValues="true"
+            rsb:activeColor="@color/light_blue"
+            rsb:barHeight="4dp"
+            rsb:defaultColor="@color/grey"
+            rsb:extraText="Hrs"
+            rsb:extraTextAvailable="true"
+            rsb:showLabels="false"
+            rsb:singleThumb="true"
+            rsb:textAboveThumbsColor="@color/grey" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type"
+            android:textSize="@dimen/text_size_normal" />
+
+        <include layout="@layout/divider_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/volunteer" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/volunteer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/language_teaching" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/coaching_skills_training" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/coaching"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/legal_consulting" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/legal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/where"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/_1_100_kms" />
+
+        </LinearLayout>
+
+        <zakati.app.com.zakati.views.rangeSeekbar.RangeSeekBar
+            android:id="@+id/distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            rsb:absoluteMaxValue="@integer/max_time"
+            rsb:absoluteMinValue="@integer/min_time"
+            rsb:activateOnDefaultValues="true"
+            rsb:activeColor="@color/light_blue"
+            rsb:barHeight="4dp"
+            rsb:defaultColor="@color/grey"
+            rsb:extraText="Hrs"
+            rsb:extraTextAvailable="true"
+            rsb:showLabels="false"
+            rsb:singleThumb="true"
+            rsb:textAboveThumbsColor="@color/grey" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:background="@color/white"
+
+            android:padding="@dimen/margin_xsmall">
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/match_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.AppCompatSpinner>
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/description"
+            style="@style/EditTextStyle.white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xsmall"
+            android:gravity="start"
+            android:hint="@string/description_star"
+            android:maxLines="3"
+            android:minLines="3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/conatcted_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/email" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/phone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/give"
+            style="@style/ButtonStyle.Rounded_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_xlargex"
+            android:text="@string/give" />
+
+    </LinearLayout>
+
+</ScrollView>

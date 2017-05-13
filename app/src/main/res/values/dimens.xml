@@ -1,0 +1,75 @@
+<resources>
+    <!-- Margins -->
+    <dimen name="point_five">0.5dp</dimen>
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="margin_mini">2dp</dimen>
+    <dimen name="margin_mini_x">3dp</dimen>
+    <dimen name="margin_micro">4dp</dimen>
+    <dimen name="margin_normal">6dp</dimen>
+    <dimen name="margin_xsmall">8dp</dimen>
+    <dimen name="margin_xsmalls">10dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_smallx">14dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_largex">20dp</dimen>
+    <dimen name="margin_xlarge">24dp</dimen>
+    <dimen name="margin_xlargex">26dp</dimen>
+    <dimen name="margin_xxlarge">28dp</dimen>
+    <dimen name="margin_xxlargex">30dp</dimen>
+    <dimen name="margin_xxxlarge">36dp</dimen>
+    <dimen name="margin_very_large">46dp</dimen>
+    <dimen name="margin_xxxlargex">50dp</dimen>
+    <dimen name="margin_extra_large">110dp</dimen>
+    <!-- Text Size -->
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_very_very_very_small">10sp</dimen>
+    <dimen name="text_size_very_very_small">12sp</dimen>
+    <dimen name="text_size_very_small">14sp</dimen>
+    <dimen name="text_size_normalx">16sp</dimen>
+    <dimen name="text_size_normal">18sp</dimen>
+    <dimen name="text_size_xnormal">20sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_largex">24sp</dimen>
+    <dimen name="text_size_xlarge">28sp</dimen>
+    <dimen name="text_size_xlargex">30sp</dimen>
+    <dimen name="text_size_xxlarge">36sp</dimen>
+    <dimen name="text_size_xxxlarge">48sp</dimen>
+
+    <dimen name="border_width">1px</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_height">4dp</dimen>
+
+    <dimen name="user_image_large">100dp</dimen>
+    <dimen name="user_image_small">60dp</dimen>
+    <dimen name="user_image_chat">42dp</dimen>
+    <dimen name="user_image_huge">150dp</dimen>
+
+
+    <dimen name="bg_image_height">240dp</dimen>
+    <dimen name="be_heard_image_height">180dp</dimen>
+    <dimen name="image_height">100dp</dimen>
+    <dimen name="appBar_layout_height">250dp</dimen>
+
+    <dimen name="negative_margin_normal">-50dp</dimen>
+    <dimen name="divider_width">30dp</dimen>
+    <dimen name="small_circular_Image">36dp</dimen>
+
+
+    <!--Upcoming Parties dimens-->
+    <dimen name="bg_image_size">180dp</dimen>
+    <dimen name="bg_image_size_large">280dp</dimen>
+    <dimen name="dp15">15dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="sp16">16sp</dimen>
+    <dimen name="sp18">18sp</dimen>
+    <dimen name="sp15">15sp</dimen>
+    <dimen name="sp20">20sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

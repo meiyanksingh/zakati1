@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_type"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical">
+    <include layout="@layout/tool_bar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dp20"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:scaleType="center"
+        android:src="@drawable/logo"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnFb"
+            style="@style/ButtonStyle.Rounded_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_with_facebook" />
+
+        <Button
+            android:id="@+id/btnSignup"
+            style="@style/ButtonStyle.Rounded_trans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/new_to_zakati_sign_up" />
+
+        <LinearLayout
+            android:id="@+id/llOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:background="@drawable/rounded_rec_trans"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/linkedin"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/g_plush"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twitter"
+                />
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/more_options"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:layout_margin="@dimen/dp5"
+            android:text="By signing up, I agree to Zakati\'s Terms of Service, Equality Policy, Payments Terms of Service and Privacy Policy."
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

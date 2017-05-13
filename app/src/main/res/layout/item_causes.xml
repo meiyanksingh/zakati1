@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample_profile" />
+
+        <TextView
+            android:id="@+id/cause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_micro"
+            android:text="group"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <TextView
+            android:id="@+id/label_following"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/margin_micro"
+            android:background="@drawable/rounded_rec_blue"
+            android:padding="@dimen/margin_micro"
+            android:text="following"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/label_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/margin_micro"
+            android:padding="@dimen/margin_micro"
+            android:text="Approved"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Amount: 10$"
+        android:textSize="@dimen/text_size_xnormal" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Amount: 10$"
+        android:textColor="@color/activated_green"
+        android:textSize="@dimen/text_size_xnormal" />
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <include layout="@layout/trans_toolbar" />
+
+
+    <!--    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_horizontal_margin">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/organisation_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xnormal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xxlarge"
+            android:gravity="center_horizontal"
+            android:text="@string/find_your_organisation"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/organization"
+            style="@style/SpinnerStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/send"
+                style="@style/ButtonStyle.Rounded_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/send_request" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/can_t_find_organisation"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:text="@string/register_organisation"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/skip_greater"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_largex" />
+
+    </LinearLayout>
+
+    <!--
+        </ScrollView>
+    -->
+
+
+</LinearLayout>

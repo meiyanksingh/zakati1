@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_groups"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/nav"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/posts"
+            android:layout_width="0dp"
+            android:text="@string/posts"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/light_blue"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rec_white_blue_border_left_curved"
+            android:layout_marginEnd="-8dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/chats"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:text="@string/chats"
+            android:textColor="@color/light_blue"
+            android:background="@drawable/rec_white_blue_border"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/members"
+            android:background="@drawable/rec_white_blue_border_right_curved"
+            android:layout_width="0dp"
+            android:text="@string/members"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/light_blue"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-8dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/search"
+        style="@style/EditTextStyle.rounded_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:hint="@string/search" />
+
+    <include
+        layout="@layout/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+        <include layout="@layout/blue_fab"/>
+    </FrameLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_member_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="zakati.app.com.zakati.activities.MemberDetails">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/purple">
+
+            <FrameLayout
+                android:id="@+id/profile_frame"
+                android:layout_width="@dimen/user_image_large"
+                android:layout_height="@dimen/user_image_large"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center">
+
+                <zakati.app.com.zakati.views.StrokeCirculerImageView
+                    android:id="@+id/profile_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sample_profile" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_frame"
+                android:layout_centerHorizontal="true"
+                android:text="name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewStyle_no_padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/city"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <TextView
+                    android:id="@+id/city"
+                    style="@style/TextViewStyle_no_padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:text="Mesbum" />
+
+                <include layout="@layout/divider_grey" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewStyle_no_padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/country"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <TextView
+                    android:id="@+id/country"
+                    style="@style/TextViewStyle_no_padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:text="UAE" />
+
+                <include layout="@layout/divider_grey" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewStyle_no_padding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/causes_he_cares_about"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <zakati.app.com.zakati.views.FlowLayout
+                    android:id="@id/causes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_normal" />
+
+                <include layout="@layout/divider_grey" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <include layout="@layout/trans_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?selectableItemBackground"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/login_with"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp20" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linkedin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_rec_blue">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/linkedin"
+                android:gravity="center"
+                android:text="@string/linkedin"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:background="@drawable/rounded_rec_blue">
+
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/g_plush"
+                android:gravity="center"
+                android:text="@string/google"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:background="@drawable/rounded_rec_blue">
+
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/twitter"
+                android:gravity="center"
+                android:text="@string/twitter"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/create"
+            style="@style/ButtonStyle.Rounded_trans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp15"
+            android:paddingLeft="@dimen/dp20"
+            android:text="@string/create_account" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

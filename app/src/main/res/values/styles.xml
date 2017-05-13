@@ -1,0 +1,154 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/off_white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.AppCompat.CheckBox">
+        <item name="colorControlActivated">@color/green</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="AppDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <!-- Used for the background -->
+        <!-- <item name="android:background">@color/white</item>-->
+    </style>
+
+    <!--    <style name="ThemeOverlay.AppCompat.BottomNavigation">
+            <item name="colorPrimary">@color/</item>
+            &lt;!&ndash;<item name="colorControlHighlight">@color/black</item>
+            <item name="colorPrimaryDark">@color/black</item>
+            <item name="colorAccent">@color/black</item>
+            <item name="colorControlNormal">@color/black</item>&ndash;&gt;
+        </style>-->
+
+    <style name="AppTheme.Zakati" />
+
+    <style name="AppTheme.Zakati.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.Zakati.NoActionBar.FullScreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <!--EditText Style-->
+
+    <style name="EditTextStyle" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:padding">@dimen/margin_small</item>
+    </style>
+
+
+    <style name="EditTextStyle_bottom_white" parent="Base.Widget.AppCompat.EditText">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="EditTextStyle.rounded_white">
+        <item name="android:background">@drawable/rounded_rec_white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="EditTextStyle.blue">
+        <item name="android:background">@color/rec_btn_color</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/hint</item>
+    </style>
+
+    <style name="EditTextStyle.white">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="EditTextStyle.white_border">
+        <item name="android:background">@drawable/rec_white_border</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/grey</item>
+    </style>
+
+    <!--Button Style-->
+
+    <style name="rec_btn_style" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@color/rec_btn_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+
+    </style>
+
+    <style name="ButtonStyle.Rounded_blue">
+        <item name="android:background">@drawable/rounded_rec_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">@dimen/margin_xxxlargex</item>
+        <item name="android:paddingRight">@dimen/margin_xxxlargex</item>
+    </style>
+
+    <style name="ButtonStyle.Rounded_trans">
+        <item name="android:background">@drawable/rounded_rec_trans</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- TextView Style-->
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">@dimen/margin_small</item>
+    </style>
+
+    <style name="TextViewStyle_no_padding" parent="android:Widget.TextView">
+        <item name="android:padding">-12dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewStyle_no_padding.white">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MainActivityTextStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_largex</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SwitchStyle">
+        <item name="colorControlActivated">@color/activated_green</item>
+    </style>
+
+    <!-- Spinner Style -->
+    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner.Underlined">
+        <item name="android:padding">@dimen/margin_small</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <style name="DialogAppTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:color">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="textColorAlertDialogListItem">@color/colorPrimary</item>
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+
+    <!-- <com.ta.ondemand.ui.ProgressWheel xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         android:id="@+id/progress_wheel"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:visibility="gone"
+         app:matProg_barColor="@color/colorAccent"
+         app:matProg_barWidth="@dimen/dp2" />-->
+
+    <com.dcs.clipazadmin.ui.RotateLoading
+        android:id="@+id/progress_wheel"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:loading_color="@color/colorAccent"
+        app:loading_speed="11"
+        app:loading_width="5dp" />
+</FrameLayout>

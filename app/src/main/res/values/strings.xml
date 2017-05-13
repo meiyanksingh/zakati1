@@ -1,0 +1,565 @@
+<resources>
+
+
+    <string name="facebook_app_id">331477127249746</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="lbl_drawer_open">Drawer Opened</string>
+    <string name="lbl_drawer_close">Drawer Close</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="no_network_msg">Please check your internet connection &amp; try again</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="server_error">Something went wrong, please try again.</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="want_to_logout">Do you really want to logout?</string>
+    <string name="retry">Retry</string>
+    <string name="app_id_gcm">59794067237</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="filter">Filter</string>
+    <string name="msg_no_cat">No category available</string>
+    <string name="logout">LOGOUT</string>
+    <string name="ok">ok</string>
+    <string name="register_new_acc">Register new account</string>
+    <string name="edit">Edit</string>
+    <string name="enter_bid_amount">Enter your bid amount</string>
+    <string name="make_offer">Make Offer</string>
+    <string name="bid_max_amount">We suggest that you bid the maximum amount that you\'re willing to pay for an item,as necessary.</string>
+    <string name="confirm_pwd">Confirm Password</string>
+    <string name="proceed">Proceed</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="register">REGISTER</string>
+    <string name="title_activity_otp">OtpActivity</string>
+    <string name="enter_otp">ENTER OTP</string>
+    <string name="change">Change</string>
+    <string name="continue_as_guest">Continue As A Guest</string>
+    <string name="join_soqek">JOIN SOQEK</string>
+    <string name="phone_no_req">Please enter the phone number.</string>
+    <string name="password_req">Please enter your password.</string>
+    <string name="pwd_length">Password length shoulg be equal to or greater than 6.</string>
+    <string name="confirm_pwd_req">Please enter confirm password.</string>
+    <string name="cnfm_pwd_length">Confirm Password field should be equal to or greater than 6.</string>
+    <string name="pwd_cnfpwd_not_same">Password and Confirm Password don\'t match.</string>
+    <string name="ph_conf">"Is this your correct number?\n*\nAn SMS with one time password will be sent to this number"</string>
+    <string name="phone_number_verification">Phone Number Verification</string>
+    <string name="okay">Okay</string>
+    <string name="enter_your_email_msg">Please enter your email address below to receive an email with your account and instructions for resetting your Password.</string>
+    <string name="or">OR</string>
+    <string name="hello_welcome"><![CDATA[Hello & Welcome!]]></string>
+    <string name="buy_sell_msg">The simpler way to buy and sell locally..</string>
+    <string name="enter_email">Please enter your email address.</string>
+    <string name="invalid_email">Please enter a valid email address.</string>
+    <string name="verify_otp_msg">SOQEK will send a One Time Password(OTP) to verify your phone number.</string>
+    <string name="verify">Verify</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="terms_conditions">By Verifying,you agree to the following terms and conditions.</string>
+    <string name="title_activity_complete_profile">CompleteProfileActivity</string>
+    <string name="your_name">YOUR NAME</string>
+    <string name="done">Done</string>
+    <string name="enter_your_name">Enter your name..</string>
+    <string name="single_image">Single Image</string>
+    <string name="select_picture_source">Choose image from camera or gallery.</string>
+    <string name="gallery">Gallery</string>
+    <string name="notifications">Notifications</string>
+    <string name="get_update">Get an update instantly</string>
+    <string name="help_center">Help Center</string>
+    <string name="common_ques_ans">Common Questions and answers</string>
+    <string name="change_pwd">Change Password</string>
+    <string name="protect_your_acc">Protect your account</string>
+    <string name="provision_specifying_msg">A Provision specifying some of the information that needs to be discloed.</string>
+    <string name="action_filter">filter</string>
+    <string name="action_search">search</string>
+    <string name="title_activity_filter">FilterActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_post_offer">PostOfferActivity</string>
+    <string name="search_everything">Search \nEverything</string>
+    <string name="near">Near</string>
+    <string name="electronics">Electronics</string>
+    <string name="people_i_follow">People I \nFollow</string>
+    <string name="people_follow_me">People Following \nMe</string>
+    <string name="furniture">Furniture</string>
+    <string name="grocery">Grocery</string>
+    <string name="kids">Kids</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="cloths">Cloths</string>
+    <string name="personal_accessories">Personal \nAccessories</string>
+    <string name="music">Music</string>
+    <string name="sports">Sports</string>
+    <string name="fitness">Fitness</string>
+    <string name="what_kind_color">What kind of color are you interested in?</string>
+    <string name="more_products">You will see more products from the category you choose.</string>
+    <string name="post_an_offer">POST AN OFFER</string>
+    <string name="action_next">NEXT</string>
+    <string name="product_category">Product category</string>
+    <string name="choose">Choose</string>
+    <string name="describe_product">Describe Product</string>
+    <string name="product_price">Product Price</string>
+    <string name="condition">Condition</string>
+    <string name="set_product_location">Set Product Location</string>
+    <string name="title_activity_post_part2">PostPart2Activity</string>
+    <string name="upload_photo_max">Upload Photo (Max.6)</string>
+    <string name="price_range">PRICE RANGE(RS)</string>
+    <string name="distance">DISTANCE(KM.)</string>
+    <string name="sort_by">SORT BY</string>
+    <string name="location">LOCATION</string>
+    <string name="apply">APPLY</string>
+    <string name="reset">Reset</string>
+    <string name="closest">Closest</string>
+    <string name="newest">Newest</string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+
+
+    <string-array name="drawer_items">
+        <item>Home</item>
+        <item>My Profile</item>
+        <item>Post New Offer</item>
+        <item>Categories</item>
+        <item>Notifications</item>
+        <item>My Offers</item>
+        <item>Messages</item>
+        <item>Invite Friends</item>
+        <item>Settings</item>
+    </string-array>
+
+
+    <string-array name="conditions">
+        <item>Poor</item>
+        <item>Average</item>
+        <item>Good</item>
+        <item>Best</item>
+    </string-array>
+
+
+    <!-- M Support Rationale -->
+    <string name="gps_permission_rationale">Please allow the app to use your location so that we can show you the most accurate prices.</string>
+    <string name="camera_permission_rationale">Please allow the app to use your camera so that we can upload a profile picture for you.</string>
+    <string name="storage_permission_rationale">Please allow the app to view your gallery so that we can upload a profile picture for you.</string>
+
+    <string name="title_activity_invite">InviteActivity</string>
+    <string name="invite_fb_friends">Invite Facebook Friends</string>
+    <string name="send_email">Tap here to send invite via email</string>
+    <string name="search_fb_contacts">Search Facebook Contacts</string>
+    <string name="invite_friends">INVITE FRIENDS</string>
+    <string name="my_profile">My Profile</string>
+    <string name="cash_service_free">Cash Service Free</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="bank_acc_info">Bank Account Info</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="bank_holders_name">Bank Holder\'s Name</string>
+    <string name="acc_no">Account Number</string>
+    <string name="iban">IBAN</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="title_activity_bank_details">BankDetailsActivity</string>
+    <string name="edit_bank_info">EDIT BANK ACCOUNT INFO</string>
+    <string name="save">Save</string>
+    <string name="mobile_num">Mobile Number</string>
+    <string name="email_add">Email Address</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="title_activity_offers">OffersActivity</string>
+    <string name="favourites">Favourites</string>
+    <string name="buying">Buying</string>
+    <string name="selling">Selling</string>
+    <string name="my_offers">MY OFFERS</string>
+    <string name="on_sale_products">ON SALE PRODUCTS</string>
+    <string name="sold_products">SOLD PRODUCTS</string>
+    <string name="post_new_offer">Post New Offer</string>
+    <string name="categories">Categories</string>
+    <string name="messages">Messages</string>
+    <string name="title_activity_home_categories">HomeCategories</string>
+    <string name="ask">Ask</string>
+    <string name="make_an_offer">Make an Offer</string>
+    <string name="buy">Buy</string>
+    <string name="follow">Follow</string>
+    <string name="add_to_wishlist">Add to wishlist</string>
+    <string name="report">Report</string>
+    <string name="title_activity_buy">BuyActivity</string>
+    <string name="choose_your_payment_method">Choose your payment method</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="pay_via_credit_card">Pay Via Credit Card</string>
+    <string name="bank_transfer">Bank Transfer</string>
+    <string name="cod">COD</string>
+    <string name="pay_via_cod">Pay VIa Cash On Delivery</string>
+    <string name="pay_via_bank">Pay via Transfering Money through your online banking</string>
+    <string name="sadad">SADAD</string>
+    <string name="pay_via_sadad">Pay via National Electronic Bill Presentment and Payment(EBPP) service</string>
+    <string name="title_activity_ask">AskActivity</string>
+    <string name="select_profile_image">please select profile image</string>
+    <string name="logout_confirmation"><b>Are you sure, </b>You want to logout ?</string>
+    <string name="logout_label">Logout</string>
+    <string name="currency_symbol">£</string>
+    <string name="category_load_fail">Can not load categories</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="choose_condition">Choose Condition</string>
+    <string name="product_title">Product Title</string>
+    <string name="upload_failed_msg">Some of your files are failed to upload. Please try again.</string>
+    <string name="enter_iban">Please enter IBAN..</string>
+    <string name="enter_acc_no">Please enter your account number..</string>
+    <string name="enter_bank_holder">Please enter bank holder name..</string>
+    <string name="enter_bank_name">Please enter your bank name..</string>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+    <string name="view_offer">View Offer</string>
+    <string name="service_not_available">we could not find your address</string>
+    <string name="invalid_lat_long_used">Please choose valid location</string>
+    <string name="address_found">We have found you address</string>
+    <string name="title_activity_change_pwd">ChangePwdActivity</string>
+    <string name="enter_old_pwd">Please enter your old password.</string>
+    <string name="enter_new_pwd">Please enter your new password.</string>
+    <string name="enter_confirm_new_pwd">Please confirm your new password.</string>
+    <string name="same_pwd">Password and confirm password should be same.</string>
+    <string name="old_pwd">Old Password</string>
+    <string name="new_pwd">New Password</string>
+    <string name="confirm_new_pwd">Confirm New Password</string>
+    <string name="following">Following</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="share_via">Share Via</string>
+    <string name="failed_to_load_setting">Failed to load your Notification setting.Tap to Retry.</string>
+    <string name="are_u_sure">Are you sure?</string>
+    <string name="title_activity_view_offer">View Offers</string>
+    <string name="bids_not_found">No bids found on this product.</string>
+    <string name="title_activity_buying_detail">BuyingDetailActivity</string>
+    <string name="received">Received</string>
+    <string name="could_not_get_location">Could not get location.</string>
+    <string name="location_unavailable_msg">Location is unavailable, App is exiting..</string>
+    <string name="camera">Camera</string>
+    <string name="title_activity_salon_details">SalonDetailsActivity</string>
+    <string name="title_activity_add_clipaz">AddClipazActivity</string>
+    <string name="title_activity_price_list">PriceListActivity</string>
+    <string name="title_activity_all_done">AllDoneActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="let_s_get_you_set_up">Let\'s get you Set-up</string>
+    <string name="name_caps">NAME</string>
+    <string name="choose_user_name">CHOOSE USER NAME</string>
+    <string name="choose_pass">CHOOSE A PASSWORD</string>
+    <string name="i_have_read_and_accept_the_terms_of_joining">I have read and accept the terms of joining</string>
+    <string name="all_done">All Done</string>
+    <string name="welcome_to_clipaz">Welcome to Clipaz</string>
+    <string name="Admin">Admin</string>
+    <string name="business_name_caps">BUSINESS NAME</string>
+    <string name="email_address_caps">EMAIL ADDRESS</string>
+    <string name="address_line_1">ADDRESS LINE 1</string>
+    <string name="address_line_2">ADDRESS LINE 2</string>
+    <string name="city_province_caps">CITY/PROVINCE</string>
+    <string name="business_logo">BUSINESS LOGO</string>
+    <string name="shop_front">SHOP FRONT</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="add_clipaz">Add Clipaz</string>
+    <string name="user_name_caps">USERNAME</string>
+    <string name="set_password_caps">SET PASSWORD</string>
+    <string name="expertise_caps">EXPERTISE</string>
+    <string name="add_cover_pic">Cover Pic</string>
+    <string name="add_profile_pic">Profile Pic</string>
+    <string name="hair_style">HAIR STYLE</string>
+    <string name="cut_time_caps">CUT TIME (min)</string>
+    <string name="price_caps">PRICE</string>
+    <string name="price_list">Price List</string>
+    <string name="booking">Bookings</string>
+    <string name="insights">INSIGHTS</string>
+    <string name="trimspiration">TRIMSPIRATION</string>
+    <string name="caps_daily">DAILY</string>
+    <string name="first_visit">1 st VISIT</string>
+    <string name="cancelled">CANCELLED</string>
+    <string name="missed">MISSED</string>
+    <string name="caps_totoaltaking">TOTAL TAKING</string>
+    <string name="caps_booking">BOOKINGS</string>
+    <string name="add_new_clipaz">ADD NEW CLIPAZ</string>
+    <string name="err_empty">Please enter</string>
+    <string name="error_invalid_email">Please enter a valid email Id.</string>
+    <string name="lunch_timings">Lunch Timings</string>
+    <string name="from">From</string>
+    <string name="add">add</string>
+    <string name="clear">Clear</string>
+    <string name="add_clipaz_msg">Please add at least one clipaz</string>
+    <string-array name="periods_array">
+        <item>DAILY</item>
+        <item>WEEKLY</item>
+        <item>MONTHLY</item>
+    </string-array>
+    <string name="lbl_period">PERIODS</string>
+    <string name="pound">£</string>
+    <string name="move_appointment">Move Appointment</string>
+    <string name="cancel_appintment">Cancel Appointment</string>
+    <string name="delete_confirmation">Are you sure, you want to delete ?</string>
+    <string name="move_appointment_confirmation">Are you sure, you want to move appointment ?</string>
+    <string name="title_activity_get_price_list">GetPriceListActivity</string>
+    <string name="title_activity_clipaz_profile">ClipazProfileActivity</string>
+    <string name="lbl_old_passwd">Old Password</string>
+    <string name="lbl_enter_old_passwd">Enter old password</string>
+    <string name="lbl_new_passwd">New Password</string>
+    <string name="lbl_enter_new_passwd">Enter new password</string>
+    <string name="lbl_confrm_passwd">Confirm Password</string>
+    <string name="lbl_enter_confirm_passwd">Enter confirm password</string>
+    <string name="lbl_caps_change">CHANGE PASSWORD</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="change_password">Change Password</string>
+    <string name="lbl_offer">Get Offer</string>
+    <string name="lbl_enter_offer">Enter offer</string>
+    <string name="lbl__caps_cancel">Cancel</string>
+    <string name="lbl_caps_submit">Submit</string>
+    <string name="lbl_forgot_passwd">Forget Password</string>
+    <string name="lbl_enter_email">Enter email</string>
+    <string name="select_clipaz">Please select clipaz.</string>
+    <string name="remove_clipaz_confirmation">Are you sure,you want to remove clipaz</string>
+    <string name="clipaz">CLIPAZ</string>
+    <string name="user_name">User name</string>
+    <string name="salon_detail">SALON DETAIL</string>
+    <string name="select">SELECT</string>
+    <string name="start_time">Start time</string>
+    <string name="end_time">End time</string>
+    <string name="back">Back</string>
+    <string name="terms_and_conditions">http://clipaz.co.uk/</string>
+    <string name="terms">TERMS</string>
+    <string name="edit_clipaz">Edit Clipaz</string>
+    <string name="select_terms">Please select terms of joining.</string>
+    <string name="owner">owner</string>
+    <string name="try_again">Try again</string>
+    <string name="caps_phone_no">PHONE NUMBER</string>
+    <string name="lbl_terms">Terms and Condition</string>
+    <string name="msg_terms">By using the Clipaz app you agree to refund £1 to the customer or discount £1 off the service price which should be passed on to the customer upon payment of the service.</string>
+
+
+    <string name="app_name">Zakati</string>
+    <string name="i_m_a_donor">I\'m a donor</string>
+    <string name="i_m_a_organisation">I\'m an organisation</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+
+    <string name="network_error">Seems like there is no internet connection</string>
+    <string name="preparing_card">Preparing card</string>
+    <string name="no_storage_card">No storage card</string>
+    <string name="not_enough_space">Not enough space</string>
+
+
+    <!--Toast Messages-->
+    <string name="error_empty_name">Please enter name</string>
+    <string name="error_empty_group_name">Please enter group name</string>
+    <string name="error_empty_group_members">Please add group members</string>
+    <string name="error_email_empty">Please enter email address</string>
+    <string name="error_email_invalid">Please enter a valid email address</string>
+    <string name="error_password_empty">Please enter password</string>
+    <string name="error_confirm_password_empty">Please confirm your password</string>
+    <string name="error_password_match">Password doesn\'t match</string>
+    <string name="error_otp_empty">Please enter OTP</string>
+    <string name="error_otp_length">OTP must be %s digits long.</string>
+    <string name="verification_email_sent">Verification email sent</string>
+    <string name="error_verification_email_sent">Unable to send verification email</string>
+    <string name="password_reset_success">Password reset successfully</string>
+    <string name="error_empty_message">Please enter message</string>
+    <string name="nothing_to_update">Nothing to update</string>
+
+
+    <!-- Setup Profile -->
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="city">City</string>
+    <string name="description">Description</string>
+    <string name="country">Country</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="submit">Submit</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_to_zakati_sign_up">New to Zakati? Sign Up</string>
+    <string name="do_you_login_with_social_account">Do you login with social account?</string>
+    <string name="registering">Registering...</string>
+
+    <!-- Causes Screen-->
+    <string name="search">Search</string>
+    <string name="causes_care_text">What are the causes you care about?</string>
+
+    <!-- Terms and conditions -->
+    <string name="terms_text">I have read and accept the Zakati Terms of Service.</string>
+    <string name="are_you_employed">Are you employed by registered charity or non-profit organization?</string>
+    <string name="i_accept">I Accept</string>
+    <string name="send_request">Send Request</string>
+    <string name="find_your_organisation">Please select your organisation</string>
+    <string name="name">Name</string>
+    <string name="amount">Amount</string>
+    <string name="to">To</string>
+    <string name="reason">Reason</string>
+    <string name="cause">Cause</string>
+    <string name="organisation">Organisation</string>
+    <string name="anonymous">Want to stay Anonymous?</string>
+    <string name="recurring_donation">Would you like this to make a Recurring Donation?</string>
+    <string name="give">Give</string>
+    <string name="bell">Bell</string>
+
+    <!-- Give Stuff  -->
+    <string name="how_many">How many</string>
+    <string name="_1_100_kms">1-100 Kms</string>
+    <string name="where">Where?</string>
+    <string name="anonymous_text">Want to stay Anonymous?</string>
+
+
+    <!--Range Seekbar-->
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
+    <string name="description_star">Description*</string>
+
+    <!-- Give Time -->
+    <string name="how_long">How Long?</string>
+    <string name="_1_10_hrs">1 - 10 Hrs</string>
+    <string name="type">Type</string>
+    <string name="volunteer">Volunteer</string>
+    <string name="coaching_skills_training">Coaching / Skills Training</string>
+    <string name="language_teaching">Language Teaching</string>
+    <string name="legal_consulting">Legal / Consulting</string>
+    <string name="conatcted_text">How do you prefer to be contacted?</string>
+    <string name="phone">Phone</string>
+
+    <!-- Track -->
+    <string name="weekly">Weekly</string>
+    <string-array name="track_pages">
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+        <item>Life-time</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="range">Range</string>
+    <string name="funds_donated">Funds Donated:</string>
+    <string name="total">Total</string>
+    <string name="time_donated">Time Donated:</string>
+    <string name="verified">Verified</string>
+    <string name="stuff_donated">Stuff Donated:</string>
+    <string name="your_impact">Your Impact:</string>
+    <string name="the_lives_impacted">The Lives Impacted:</string>
+    <string name="posts">Posts</string>
+    <string name="chats">Chats</string>
+    <string name="members">Members</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="post_name">Post Name</string>
+    <string name="upload_picture_optional">Upload Picture (Optional)</string>
+    <string name="choose_file">Choose File</string>
+    <string name="post">Post</string>
+
+    <!-- Member Profile -->
+    <string name="causes_he_cares_about">Causes He Cares About:</string>
+
+    <!-- Create Group -->
+    <string name="name_star">Name*</string>
+    <string name="describe_your_group">Describe Your Group*</string>
+    <string name="your_group_s_mission_objective">Your Group\'s Mission/Objective?</string>
+    <string name="poverty_hunger"><![CDATA[Poverty & Hunger]]></string>
+    <string name="health">Health</string>
+    <string name="community_empowerment">Community Empowerment</string>
+    <string name="scientific_research">Scientific Research</string>
+    <string name="education">Education</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="more_options">More Options</string>
+    <string name="login">Login</string>
+    <string name="email_address">Email Address</string>
+    <string name="show">Show</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="google">Google +</string>
+    <string name="twitter">Twitter</string>
+    <string name="login_with">Login With</string>
+    <string name="create_account">Create Account</string>
+    <string name="terms_of_service">Terms of Service</string>
+
+    <!-- Name Screen -->
+    <string name="what_s_your_name">What\'s your name?</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">Enter last name</string>
+
+    <!-- EmailAndUsername Screen -->
+    <string name="your_email_username">Your email &amp; </string>
+    <string name="username">Username</string>
+    <string name="username_text">Select a username which will be used to identify you in Zakati community yet maintain your privacy.</string>
+    <string name="enter_username">Please enter username</string>
+    <string name="create_a_password">Create a password</string>
+    <string name="password_text">Your password must be 8 or more characters long. Try making it longer or adding symbols like, !, % or #.</string>
+    <string name="your_details">Your details</string>
+    <string name="birthday">Birthday</string>
+    <string name="telephone">Telephone</string>
+    <string name="telephone_text">Your telephone number will be kept confidential unless you choose in your settings to share it with community members.</string>
+    <string name="enter_day">Please enter day.</string>
+    <string name="enter_month">Please enter month.</string>
+    <string name="enter_city">Please enter city.</string>
+    <string name="enter_year">Please enter year.</string>
+    <string name="enter_country">Please enter country.</string>
+    <string name="enter_phone">Please enter phone.</string>
+    <string name="about_me">About me</string>
+    <string name="tell_us_about_yourself">Tell us about yourself</string>
+    <string name="what_makes_you_smile">What makes you smile?</string>
+    <string name="about_yourself">Tell us something about yourself.</string>
+
+    <!-- ConnectOrganizationActivivty -->
+    <string name="skip_greater">Skip ></string>
+    <string name="organisation_text">You have confirmed that you are employed by a charity or non-profit organisation</string>
+    <string name="can_t_find_organisation">Can\'t find your organisation?</string>
+    <string name="register_organisation"><u>Click here</u> to register your organisation.</string>
+    <string name="give_money">Give Money</string>
+    <string name="track">Track</string>
+    <string name="give_stuff">Give Stuff</string>
+    <string name="give_time">Give Time</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+
+    <!-- Bootom individual_nav Menu -->
+    <string name="home">Home</string>
+    <string name="browse">Browse</string>
+    <string name="groups">Groups</string>
+    <string name="causes">Causes</string>
+    <string name="profile">Profile</string>
+
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="organisation_details">Organisation Details</string>
+    <string name="full_address">Full Address</string>
+    <string name="established_in">Established in</string>
+    <string name="org_desc">Organization Description</string>
+    <string name="add_bank_account">Add Bank Account</string>
+    <string name="routing_number">Bank Swift/BIC Routing Number</string>
+    <string name="iban_number">Bank IBAN Number</string>
+    <string name="vai_number">VAI Identification Number (if Applicable)</string>
+    <string name="account_name">Account Name</string>
+    <string name="address">Address</string>
+    <string name="icad_text">The Organization is approved to take money by IACAD</string>
+    <string name="charity_legistlation">Enter Charity Legislation Number</string>
+    <string name="money">Money</string>
+    <string name="employees">Employees</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="creating_profile">Creating Profile</string>
+    <string name="logging_in">Logging In...</string>
+    <string name="settings">Settings</string>
+    <string name="i_m_n_individual">I\'m an individual</string>
+    <string name="username_ques">username?</string>
+    <string name="small_login">Login</string>
+    <string name="caps_hide">HIDE</string>
+    <string name="caps_show">SHOW</string>
+
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="title_activity_emailnd_name">EmailndNameActivity</string>
+    <string name="check_term_condition">Please check terms and condition.</string>
+
+</resources>

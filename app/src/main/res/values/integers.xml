@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="name_max_length">255</integer>
+    <integer name="email_max_length">255</integer>
+    <integer name="password_max_length">128</integer>
+    <integer name="otp_max_length">6</integer>
+
+    <integer name="max_distance_search">100</integer>
+    <integer name="min_distance_search">1</integer>
+
+    <integer name="min_time">1</integer>
+    <integer name="max_time">10</integer>
+
+    <integer name="min_age_range">0</integer>
+    <integer name="max_age_range">100</integer>
+</resources>
